@@ -1,0 +1,373 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\di.zhang\Desktop\24c16\24c16.uv2
+Project File Date:  01/07/2019
+
+<h2>Output:</h2>
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+Program Size: data=12.0 xdata=0 code=307
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(30): 错误 C202: 'sda': undefined identifier
+WRITE.C(31): 错误 C141: syntax error near ')'
+WRITE.C(32): 错误 C202: 'sck': undefined identifier
+WRITE.C(33): 错误 C141: syntax error near ')'
+WRITE.C(34): 错误 C202: 'sda': undefined identifier
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C202: 'sda': undefined identifier
+WRITE.C(41): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C202: 'sck': undefined identifier
+WRITE.C(43): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C202: 'sck': undefined identifier
+WRITE.C(53): 错误 C141: syntax error near ')'
+WRITE.C(54): 错误 C202: 'sda': undefined identifier
+WRITE.C(58): 错误 C202: 'sck': undefined identifier
+WRITE.C(59): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C202: 'sda': undefined identifier
+WRITE.C(65): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C202: 'sck': undefined identifier
+WRITE.C(67): 错误 C141: syntax error near ')'
+WRITE.C(77): 错误 C202: 'sck': undefined identifier
+WRITE.C(79): 错误 C202: 'sda': undefined identifier
+WRITE.C(80): 错误 C202: 'sck': undefined identifier
+WRITE.C(81): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C202: 'sck': undefined identifier
+WRITE.C(92): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C202: 'sda': undefined identifier
+WRITE.C(94): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(98): 错误 C202: 'sck': undefined identifier
+WRITE.C(99): 错误 C141: syntax error near ')'
+WRITE.C(133): 错误 C141: syntax error near ')'
+write.c - 33 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(28): 错误 C141: syntax error near '*'
+WRITE.C(30): 错误 C202: 'sda': undefined identifier
+WRITE.C(31): 错误 C141: syntax error near ')'
+WRITE.C(32): 错误 C202: 'sck': undefined identifier
+WRITE.C(33): 错误 C141: syntax error near ')'
+WRITE.C(34): 错误 C202: 'sda': undefined identifier
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C202: 'sda': undefined identifier
+WRITE.C(41): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C202: 'sck': undefined identifier
+WRITE.C(43): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C202: 'sck': undefined identifier
+WRITE.C(53): 错误 C141: syntax error near ')'
+WRITE.C(54): 错误 C202: 'sda': undefined identifier
+WRITE.C(58): 错误 C202: 'sck': undefined identifier
+WRITE.C(59): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C202: 'sda': undefined identifier
+WRITE.C(65): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C202: 'sck': undefined identifier
+WRITE.C(67): 错误 C141: syntax error near ')'
+WRITE.C(77): 错误 C202: 'sck': undefined identifier
+WRITE.C(79): 错误 C202: 'sda': undefined identifier
+WRITE.C(80): 错误 C202: 'sck': undefined identifier
+WRITE.C(81): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C202: 'sck': undefined identifier
+WRITE.C(92): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C202: 'sda': undefined identifier
+WRITE.C(94): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(98): 错误 C202: 'sck': undefined identifier
+WRITE.C(99): 错误 C141: syntax error near ')'
+WRITE.C(133): 错误 C141: syntax error near ')'
+write.c - 34 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(28): 错误 C165: 'sda': ptr to bit
+WRITE.C(31): 错误 C141: syntax error near ')'
+WRITE.C(33): 错误 C141: syntax error near ')'
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C202: 'sda': undefined identifier
+WRITE.C(41): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C202: 'sck': undefined identifier
+WRITE.C(43): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C202: 'sck': undefined identifier
+WRITE.C(53): 错误 C141: syntax error near ')'
+WRITE.C(54): 错误 C202: 'sda': undefined identifier
+WRITE.C(58): 错误 C202: 'sck': undefined identifier
+WRITE.C(59): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C202: 'sda': undefined identifier
+WRITE.C(65): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C202: 'sck': undefined identifier
+WRITE.C(67): 错误 C141: syntax error near ')'
+WRITE.C(77): 错误 C202: 'sck': undefined identifier
+WRITE.C(79): 错误 C202: 'sda': undefined identifier
+WRITE.C(80): 错误 C202: 'sck': undefined identifier
+WRITE.C(81): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C202: 'sck': undefined identifier
+WRITE.C(92): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C202: 'sda': undefined identifier
+WRITE.C(94): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(98): 错误 C202: 'sck': undefined identifier
+WRITE.C(99): 错误 C141: syntax error near ')'
+write.c - 30 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(28): 错误 C165: 'sda': ptr to bit
+WRITE.C(31): 错误 C141: syntax error near ')'
+WRITE.C(33): 错误 C141: syntax error near ')'
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C202: 'sda': undefined identifier
+WRITE.C(41): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C202: 'sck': undefined identifier
+WRITE.C(43): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C202: 'sck': undefined identifier
+WRITE.C(53): 错误 C141: syntax error near ')'
+WRITE.C(54): 错误 C202: 'sda': undefined identifier
+WRITE.C(58): 错误 C202: 'sck': undefined identifier
+WRITE.C(59): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C202: 'sda': undefined identifier
+WRITE.C(65): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C202: 'sck': undefined identifier
+WRITE.C(67): 错误 C141: syntax error near ')'
+WRITE.C(77): 错误 C202: 'sck': undefined identifier
+WRITE.C(79): 错误 C202: 'sda': undefined identifier
+WRITE.C(80): 错误 C202: 'sck': undefined identifier
+WRITE.C(81): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C202: 'sck': undefined identifier
+WRITE.C(92): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C202: 'sda': undefined identifier
+WRITE.C(94): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(98): 错误 C202: 'sck': undefined identifier
+WRITE.C(99): 错误 C141: syntax error near ')'
+write.c - 30 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(31): 错误 C141: syntax error near ')'
+WRITE.C(33): 错误 C141: syntax error near ')'
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C202: 'sda': undefined identifier
+WRITE.C(41): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C202: 'sck': undefined identifier
+WRITE.C(43): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C202: 'sck': undefined identifier
+WRITE.C(53): 错误 C141: syntax error near ')'
+WRITE.C(54): 错误 C202: 'sda': undefined identifier
+WRITE.C(58): 错误 C202: 'sck': undefined identifier
+WRITE.C(59): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C202: 'sda': undefined identifier
+WRITE.C(65): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C202: 'sck': undefined identifier
+WRITE.C(67): 错误 C141: syntax error near ')'
+WRITE.C(77): 错误 C202: 'sck': undefined identifier
+WRITE.C(79): 错误 C202: 'sda': undefined identifier
+WRITE.C(80): 错误 C202: 'sck': undefined identifier
+WRITE.C(81): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C202: 'sck': undefined identifier
+WRITE.C(92): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C202: 'sda': undefined identifier
+WRITE.C(94): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(98): 错误 C202: 'sck': undefined identifier
+WRITE.C(99): 错误 C141: syntax error near ')'
+write.c - 29 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(28): 错误 C165: 'a': ptr to bit
+WRITE.C(35): 错误 C141: syntax error near ')'
+WRITE.C(37): 错误 C141: syntax error near ')'
+WRITE.C(39): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C202: 'sda': undefined identifier
+WRITE.C(45): 错误 C141: syntax error near ')'
+WRITE.C(46): 错误 C202: 'sck': undefined identifier
+WRITE.C(47): 错误 C141: syntax error near ')'
+WRITE.C(48): 错误 C202: 'sda': undefined identifier
+WRITE.C(49): 错误 C141: syntax error near ')'
+WRITE.C(56): 错误 C202: 'sck': undefined identifier
+WRITE.C(57): 错误 C141: syntax error near ')'
+WRITE.C(58): 错误 C202: 'sda': undefined identifier
+WRITE.C(62): 错误 C202: 'sck': undefined identifier
+WRITE.C(63): 错误 C141: syntax error near ')'
+WRITE.C(68): 错误 C202: 'sda': undefined identifier
+WRITE.C(69): 错误 C141: syntax error near ')'
+WRITE.C(70): 错误 C202: 'sck': undefined identifier
+WRITE.C(71): 错误 C141: syntax error near ')'
+WRITE.C(81): 错误 C202: 'sck': undefined identifier
+WRITE.C(83): 错误 C202: 'sda': undefined identifier
+WRITE.C(84): 错误 C202: 'sck': undefined identifier
+WRITE.C(85): 错误 C141: syntax error near ')'
+WRITE.C(95): 错误 C202: 'sck': undefined identifier
+WRITE.C(96): 错误 C141: syntax error near ')'
+WRITE.C(97): 错误 C202: 'sda': undefined identifier
+WRITE.C(98): 错误 C141: syntax error near ')'
+WRITE.C(99): 错误 C202: 'sck': undefined identifier
+WRITE.C(102): 错误 C202: 'sck': undefined identifier
+WRITE.C(103): 错误 C141: syntax error near ')'
+write.c - 30 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(30): 错误 C141: syntax error near ')'
+WRITE.C(32): 错误 C141: syntax error near ')'
+WRITE.C(34): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C141: syntax error near ')'
+WRITE.C(58): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C141: syntax error near ')'
+WRITE.C(80): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C141: syntax error near ')'
+WRITE.C(98): 错误 C141: syntax error near ')'
+WRITE.C(132): 错误 C141: syntax error near ')'
+write.c - 15 个错误, 0 个警告。
+编译 write.c ...
+WRITE.C(30): 错误 C141: syntax error near ')'
+WRITE.C(32): 错误 C141: syntax error near ')'
+WRITE.C(34): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C141: syntax error near ')'
+WRITE.C(58): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C141: syntax error near ')'
+WRITE.C(80): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C141: syntax error near ')'
+WRITE.C(98): 错误 C141: syntax error near ')'
+WRITE.C(132): 错误 C141: syntax error near ')'
+write.c - 15 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+WRITE.C(30): 错误 C141: syntax error near ')'
+WRITE.C(32): 错误 C141: syntax error near ')'
+WRITE.C(34): 错误 C141: syntax error near ')'
+WRITE.C(40): 错误 C141: syntax error near ')'
+WRITE.C(42): 错误 C141: syntax error near ')'
+WRITE.C(44): 错误 C141: syntax error near ')'
+WRITE.C(52): 错误 C141: syntax error near ')'
+WRITE.C(58): 错误 C141: syntax error near ')'
+WRITE.C(64): 错误 C141: syntax error near ')'
+WRITE.C(66): 错误 C141: syntax error near ')'
+WRITE.C(80): 错误 C141: syntax error near ')'
+WRITE.C(91): 错误 C141: syntax error near ')'
+WRITE.C(93): 错误 C141: syntax error near ')'
+WRITE.C(98): 错误 C141: syntax error near ')'
+WRITE.C(132): 错误 C141: syntax error near ')'
+目标未产生
+编译 write.c ...
+write.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=318
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+Program Size: data=12.0 xdata=0 code=320
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMWRITE?WRITE
+Program Size: data=14.0 xdata=0 code=407
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 2 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ?WRITE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMWRITE?WRITE
+Program Size: data=14.0 xdata=0 code=407
+创建 HEX 文件 "24c16" ...
+"24c16" - 0 个错误, 2 个警告。
+编译 write.c ...
+WRITE.C(154): 警告 C206: 'write_add': missing function-prototype
+WRITE.C(154): 错误 C267: 'write_add': requires ANSI-style prototype
+write.c - 1 个错误, 1 个警告。
+创建目标 '目标 1'
+编译 write.c ...
+WRITE.C(168): 警告 C206: 'write_add': missing function-prototype
+WRITE.C(168): 错误 C267: 'write_add': requires ANSI-style prototype
+目标未产生
+编译 write.c ...
+write.c - 0 个错误, 0 个警告。
+</pre>
+</body>
+</html>

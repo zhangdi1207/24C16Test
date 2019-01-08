@@ -1,0 +1,70 @@
+C51 COMPILER V8.06   DISPLAY                                                               01/08/2019 16:57:07 PAGE 1   
+
+
+C51 COMPILER V8.06, COMPILATION OF MODULE DISPLAY
+OBJECT MODULE PLACED IN display.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE display.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<oled.h>
+   2          
+   3          void disW(uchar dat,uchar com)
+   4          {
+   5   1              disCS=0;
+   6   1              start();
+   7   1              write8(0x78);
+   8   1              ack();
+   9   1              write8(com);
+  10   1              ack();
+  11   1              write8(dat);
+  12   1              ack();
+  13   1              stop();
+  14   1              disCS=1;
+  15   1      }
+  16          void disWdat(uchar dat)
+  17          {
+  18   1              disW(dat,0x40);
+  19   1      }
+  20          void disWcom(uchar dat)
+  21          {
+  22   1              disW(dat,0x00);
+  23   1      }
+  24          void disSetPos(uchar x, uchar y)
+  25          {
+  26   1              disWcom(0xb0+y);
+  27   1              disWcom(((x&0xf0)>>4)|0x10);
+  28   1              disWcom((x&0x0f)|0x01);
+  29   1      }
+  30          void disFill(uchar bmp_dat)
+  31          {
+  32   1              uchar y,x;
+  33   1              for(y=0;y<8;y++)
+  34   1              {
+  35   2                      disWcom(0xb0+y);
+  36   2                      disWcom(0x01);
+  37   2                      disWcom(0x10);
+  38   2                      for(x=0;x<X_WIDTH;x++)
+  39   2                      disWdat(bmp_dat);
+  40   2              }
+  41   1      }
+  42          void disCLS()
+  43          {
+  44   1              disFill(0);
+  45   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    136    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       6
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+C51 COMPILER V8.06   DISPLAY                                                               01/08/2019 16:57:07 PAGE 2   
+
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
