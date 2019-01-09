@@ -1,0 +1,39 @@
+C51 COMPILER V8.06   DELAY                                                                 01/09/2019 15:14:42 PAGE 1   
+
+
+C51 COMPILER V8.06, COMPILATION OF MODULE DELAY
+OBJECT MODULE PLACED IN delay.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE delay.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <oled.h>
+   2          
+   3          void delayMs(uint z)
+   4          {
+   5   1              uint x,y;
+   6   1              for(x=z;x>0;x--)
+   7   1                      for(y=110;y>0;y--);
+   8   1      }
+   9          
+  10          
+  11          void memDelay()//写数据过程中延时，大约需要i=1100模拟延时成功，取2倍
+  12          {
+  13   1              uint i=2000;
+  14   1              while(i--)
+  15   1              D1;
+  16   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     49    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -3,25 +3,283 @@
 <pre>
 <h1>礦ision3 Build Log</h1>
 <h2>Project:</h2>
-C:\Users\di.zhang\Desktop\24c16\dis\oled.uv2
+C:\Users\di.zhang\Desktop\24c16\24C16Test\dis\oled.uv2
 Project File Date:  01/08/2019
 
 <h2>Output:</h2>
 创建目标 '目标 1'
 编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C231: '_disW': redefinition
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(6): 错误 C231: 'start': redefinition
+DISPLAY.C(7): 错误 C141: syntax error near '0x78'
+DISPLAY.C(7): 错误 C231: '_write8': redefinition
+DISPLAY.C(8): 错误 C231: 'ack': redefinition
+DISPLAY.C(9): 错误 C231: '_write8': redefinition
+DISPLAY.C(10): 错误 C231: 'ack': redefinition
+DISPLAY.C(11): 错误 C231: '_write8': redefinition
+DISPLAY.C(12): 错误 C231: 'ack': redefinition
+DISPLAY.C(13): 错误 C231: 'stop': redefinition
+DISPLAY.C(14): 错误 C279: 'disCS': multiple initialization
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(15): 错误 C141: syntax error near '}'
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C231: '_disW': redefinition
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(6): 错误 C231: 'start': redefinition
+DISPLAY.C(7): 错误 C141: syntax error near '0x78'
+DISPLAY.C(7): 错误 C231: '_write8': redefinition
+DISPLAY.C(8): 错误 C231: 'ack': redefinition
+DISPLAY.C(9): 错误 C231: '_write8': redefinition
+DISPLAY.C(10): 错误 C231: 'ack': redefinition
+DISPLAY.C(11): 错误 C231: '_write8': redefinition
+DISPLAY.C(12): 错误 C231: 'ack': redefinition
+DISPLAY.C(13): 错误 C231: 'stop': redefinition
+DISPLAY.C(14): 错误 C279: 'disCS': multiple initialization
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(15): 错误 C141: syntax error near '}'
+目标未产生
+编译 display.c ...
+DISPLAY.C(1): 错误 C141: syntax error near ''
+display.c - 1 个错误, 0 个警告。
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C231: '_disW': redefinition
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(6): 错误 C231: 'start': redefinition
+DISPLAY.C(7): 错误 C141: syntax error near '0x78'
+DISPLAY.C(7): 错误 C231: '_write8': redefinition
+DISPLAY.C(8): 错误 C231: 'ack': redefinition
+DISPLAY.C(9): 错误 C231: '_write8': redefinition
+DISPLAY.C(10): 错误 C231: 'ack': redefinition
+DISPLAY.C(11): 错误 C231: '_write8': redefinition
+DISPLAY.C(12): 错误 C231: 'ack': redefinition
+DISPLAY.C(13): 错误 C231: 'stop': redefinition
+DISPLAY.C(14): 错误 C279: 'disCS': multiple initialization
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(15): 错误 C141: syntax error near '}'
+display.c - 18 个错误, 0 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
 连接 ...
-*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
-Program Size: data=0.0 xdata=0 code=0
-"oled" - 0 个错误, 1 个警告。
+Program Size: data=9.0 xdata=0 code=16
+"oled" - 0 个错误, 0 个警告。
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+display.c - 2 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+目标未产生
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'dat', expected ')'
+DISPLAY.C(5): 错误 C202: 'disCS': undefined identifier
+display.c - 2 个错误, 0 个警告。
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C231: '_disW': redefinition
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(6): 错误 C231: 'start': redefinition
+DISPLAY.C(7): 错误 C141: syntax error near '0x78'
+DISPLAY.C(7): 错误 C231: '_write8': redefinition
+DISPLAY.C(8): 错误 C231: 'ack': redefinition
+DISPLAY.C(9): 错误 C231: '_write8': redefinition
+DISPLAY.C(10): 错误 C231: 'ack': redefinition
+DISPLAY.C(11): 错误 C231: '_write8': redefinition
+DISPLAY.C(12): 错误 C231: 'ack': redefinition
+DISPLAY.C(13): 错误 C231: 'stop': redefinition
+DISPLAY.C(14): 错误 C279: 'disCS': multiple initialization
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(15): 错误 C141: syntax error near '}'
+display.c - 18 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(96): 错误 C202: 'F6x8': undefined identifier
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(96): 错误 C202: 'F6x8': undefined identifier
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+DISPLAY.C(3): 错误 C141: syntax error near 'void'
+DISPLAY.C(4): 错误 C231: '_disW': redefinition
+DISPLAY.C(4): 错误 C141: syntax error near '{'
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(5): 错误 C231: 'disCS': redefinition
+DISPLAY.C(6): 错误 C231: 'start': redefinition
+DISPLAY.C(7): 错误 C141: syntax error near '0x78'
+DISPLAY.C(7): 错误 C231: '_write8': redefinition
+DISPLAY.C(8): 错误 C231: 'ack': redefinition
+DISPLAY.C(9): 错误 C231: '_write8': redefinition
+DISPLAY.C(10): 错误 C231: 'ack': redefinition
+DISPLAY.C(11): 错误 C231: '_write8': redefinition
+DISPLAY.C(12): 错误 C231: 'ack': redefinition
+DISPLAY.C(13): 错误 C231: 'stop': redefinition
+DISPLAY.C(14): 错误 C279: 'disCS': multiple initialization
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(14): 错误 C231: 'disCS': redefinition
+DISPLAY.C(15): 错误 C141: syntax error near '}'
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISCLS?DISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISINIT?DISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIS6X8STRS?DISPLAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=23.0 xdata=0 code=533
+"oled" - 0 个错误, 17 个警告。
 编译 display.c ...
 display.c - 0 个错误, 0 个警告。
 创建目标 '目标 1'
 连接 ...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_DISSETPOS?DISPLAY
+    SEGMENT: ?PR?DISCLS?DISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISINIT?DISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIS6X8STRS?DISPLAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=23.0 xdata=0 code=533
+"oled" - 0 个错误, 17 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+连接 ...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?DISCLS?DISPLAY
-*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISINIT?DISPLAY
 *** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
     SYMBOL:  ACK
     MODULE:  display.obj (DISPLAY)
@@ -32,39 +290,549 @@ display.c - 0 个错误, 0 个警告。
     SYMBOL:  STOP
     MODULE:  display.obj (DISPLAY)
 *** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
     SYMBOL:  _WRITE8
     MODULE:  display.obj (DISPLAY)
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  START
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0039H
+    ADDRESS: 01BDH
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  _WRITE8
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 003EH
+    ADDRESS: 01C2H
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  ACK
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0041H
+    ADDRESS: 01C5H
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  _WRITE8
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0046H
+    ADDRESS: 01CAH
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  ACK
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0049H
+    ADDRESS: 01CDH
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  _WRITE8
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 004EH
+    ADDRESS: 01D2H
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  ACK
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0051H
+    ADDRESS: 01D5H
 *** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
     SYMBOL:  STOP
     MODULE:  display.obj (DISPLAY)
-    ADDRESS: 0054H
-Program Size: data=14.0 xdata=0 code=136
+    ADDRESS: 01D8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=23.0 xdata=0 code=548
+"oled" - 0 个错误, 16 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISCLS?DISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISINIT?DISPLAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=23.0 xdata=0 code=548
+"oled" - 0 个错误, 16 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISCLS?DISPLAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=20.0 xdata=0 code=551
 "oled" - 0 个错误, 15 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+连接 ...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISCLS?DISPLAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=20.0 xdata=0 code=551
+"oled" - 0 个错误, 15 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+连接 ...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  START
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01BDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01C5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ACK
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STOP
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 01D8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAYMS
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0008H
+Program Size: data=20.0 xdata=0 code=554
+"oled" - 0 个错误, 14 个警告。
+编译 mem.c ...
+mem.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 delay.c ...
+DELAY.C(3): 错误 C141: syntax error near ''
+编译 mem.c ...
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMDELAY?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0246H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 024EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _WRITE8
+    MODULE:  display.obj (DISPLAY)
+    ADDRESS: 0256H
+Program Size: data=21.0 xdata=0 code=800
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+MEM.C(91): 警告 C206: 'DT': missing function-prototype
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMDELAY?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMWCHAR?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMREAD?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+    ADDRESS: 0295H
+Program Size: data=21.0 xdata=0 code=975
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+MEM.C(91): 警告 C206: 'DT': missing function-prototype
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMDELAY?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMWCHAR?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMREAD?MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?DELAY
+    LENGTH:  0042H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?MEM
+    LENGTH:  0042H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  F6X8
+    SEGMENT: ?DT?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  F6X8
+    SEGMENT: ?DT?MEM
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+    ADDRESS: 0317H
+Program Size: data=219.0 xdata=0 code=1097
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+MEM.C(91): 警告 C206: 'DT': missing function-prototype
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMDELAY?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMWCHAR?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMREAD?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DT
+    MODULE:  mem.obj (MEM)
+    ADDRESS: 0295H
+Program Size: data=21.0 xdata=0 code=975
+目标未产生
+创建目标 '目标 1'
+编译 mem.c ...
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMWCHAR?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMREAD?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+Program Size: data=21.0 xdata=0 code=975
+目标未产生
+编译 mem.c ...
+mem.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMWCHAR?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_MEMREAD?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+Program Size: data=21.0 xdata=0 code=975
+目标未产生
+编译 display.c ...
+DISPLAY.C(108): 警告 C206: 'memWrite': missing function-prototype
+DISPLAY.C(108): 错误 C267: 'memWrite': requires ANSI-style prototype
+DISPLAY.C(109): 错误 C141: syntax error near '}'
+display.c - 2 个错误, 1 个警告。
+编译 display.c ...
+DISPLAY.C(108): 警告 C209: '_memWchar': too few actual parameters
+DISPLAY.C(109): 错误 C141: syntax error near '}'
+display.c - 1 个错误, 1 个警告。
+编译 display.c ...
+DISPLAY.C(109): 错误 C141: syntax error near '}'
+display.c - 1 个错误, 0 个警告。
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MEMINIT?MEM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+Program Size: data=21.0 xdata=0 code=989
+目标未产生
+创建目标 '目标 1'
+编译 display.c ...
+连接 ...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  delay.obj (DELAY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  mem.obj (MEM)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MEM
+Program Size: data=21.0 xdata=0 code=992
+目标未产生
+编译 display.c ...
+display.c - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 delay.c ...
+编译 mem.c ...
+连接 ...
+Program Size: data=21.0 xdata=0 code=860
+"oled" - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+连接 ...
+Program Size: data=21.0 xdata=0 code=860
+"oled" - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+连接 ...
+Program Size: data=21.0 xdata=0 code=860
+创建 HEX 文件 "oled" ...
+"oled" - 0 个错误, 0 个警告。
+创建目标 '目标 1'
+编译 display.c ...
+编译 delay.c ...
+编译 mem.c ...
+连接 ...
+Program Size: data=21.0 xdata=0 code=860
+创建 HEX 文件 "oled" ...
+"oled" - 0 个错误, 0 个警告。

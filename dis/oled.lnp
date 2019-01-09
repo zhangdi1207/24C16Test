@@ -1,2 +1,4 @@
-"display.obj" 
+"display.obj",
+"delay.obj",
+"mem.obj" 
 TO "oled" 

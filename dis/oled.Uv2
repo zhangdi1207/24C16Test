@@ -7,6 +7,8 @@ Group (源代码组 1)
 
 File 1,1,<.\display.c><display.c> 0x0 
 File 1,5,<.\oled.h><oled.h> 0x0 
+File 1,1,<.\delay.c><delay.c> 0x0 
+File 1,1,<.\mem.c><mem.c> 0x0 
 
 
 Options 1,0,0  // Target '目标 1'
@@ -38,7 +40,7 @@ Options 1,0,0  // Target '目标 1'
  OutName (oled)
  GenApp=1
  GenLib=0
- GenHex=0
+ GenHex=1
  调试=1
  Browse=1
  LstDir (.\)
@@ -61,7 +63,7 @@ Options 1,0,0  // Target '目标 1'
  XT51FL=0
  CBANKS5=0
  XBANKS5=0
- RCB51 { 0,0,0,0,0,0,0,0,0 }
+ RCB51 { 0,0,0,0,0,0,0,1,0 }
  RXB51 { 0,0,0,0,0,0,0,0,0 }
  OCM51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
  OCR51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }

@@ -1,4 +1,4 @@
-C51 COMPILER V8.06   DISPLAY                                                               01/08/2019 16:57:07 PAGE 1   
+C51 COMPILER V8.06   DISPLAY                                                               01/09/2019 15:14:42 PAGE 1   
 
 
 C51 COMPILER V8.06, COMPILATION OF MODULE DISPLAY
@@ -7,63 +7,145 @@ COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE display.c BROWSE DEBUG OBJECTEXTEND
 
 line level    source
 
-   1          #include<oled.h>
+   1          #include <oled.h>
    2          
-   3          void disW(uchar dat,uchar com)
+   3          uchar code F6x8[][6] =
    4          {
-   5   1              disCS=0;
-   6   1              start();
-   7   1              write8(0x78);
-   8   1              ack();
-   9   1              write8(com);
-  10   1              ack();
-  11   1              write8(dat);
-  12   1              ack();
-  13   1              stop();
-  14   1              disCS=1;
-  15   1      }
-  16          void disWdat(uchar dat)
-  17          {
-  18   1              disW(dat,0x40);
-  19   1      }
-  20          void disWcom(uchar dat)
-  21          {
-  22   1              disW(dat,0x00);
-  23   1      }
-  24          void disSetPos(uchar x, uchar y)
-  25          {
-  26   1              disWcom(0xb0+y);
-  27   1              disWcom(((x&0xf0)>>4)|0x10);
-  28   1              disWcom((x&0x0f)|0x01);
-  29   1      }
-  30          void disFill(uchar bmp_dat)
-  31          {
-  32   1              uchar y,x;
-  33   1              for(y=0;y<8;y++)
-  34   1              {
-  35   2                      disWcom(0xb0+y);
-  36   2                      disWcom(0x01);
-  37   2                      disWcom(0x10);
-  38   2                      for(x=0;x<X_WIDTH;x++)
-  39   2                      disWdat(bmp_dat);
-  40   2              }
-  41   1      }
-  42          void disCLS()
-  43          {
-  44   1              disFill(0);
+   5          0x00, 0x00, 0x00, 0x00, 0x00, 0x00,// sp
+   6          0x00, 0x00, 0x00, 0x2f, 0x00, 0x00,// !
+   7          0x00, 0x00, 0x07, 0x00, 0x07, 0x00,// "
+   8          0x00, 0x14, 0x7f, 0x14, 0x7f, 0x14,// #
+   9          0x00, 0x24, 0x2a, 0x7f, 0x2a, 0x12,// $
+  10          0x00, 0x62, 0x64, 0x08, 0x13, 0x23,// %
+  11          0x00, 0x36, 0x49, 0x55, 0x22, 0x50,// &
+  12          0x00, 0x00, 0x05, 0x03, 0x00, 0x00,// '
+  13          0x00, 0x00, 0x1c, 0x22, 0x41, 0x00,// (
+  14          0x00, 0x00, 0x41, 0x22, 0x1c, 0x00,// )
+  15          0x00, 0x14, 0x08, 0x3E, 0x08, 0x14,// *
+  16          };
+  17          
+  18          void disW(uchar dat,uchar com)
+  19          {
+  20   1              disCS=0;
+  21   1              start();
+  22   1              write8(0x78);
+  23   1              ack();
+  24   1              write8(com);
+  25   1              ack();
+  26   1              write8(dat);
+  27   1              ack();
+  28   1              stop();
+  29   1              disCS=1;
+  30   1      }
+  31          
+  32          void disWdat(uchar dat)
+  33          {
+  34   1              disW(dat,0x40);
+  35   1      }
+  36          void disWcom(uchar dat)
+  37          {
+  38   1              disW(dat,0x00);
+  39   1      }
+  40          void disSetPos(uchar x, uchar y)
+  41          {
+  42   1              disWcom(0xb0+y);
+  43   1              disWcom(((x&0xf0)>>4)|0x10);
+  44   1              disWcom((x&0x0f)|0x01);
   45   1      }
+  46          void disFill(uchar bmp_dat)
+  47          {
+  48   1              uchar y,x;
+  49   1              for(y=0;y<8;y++)
+  50   1              {
+  51   2                      disWcom(0xb0+y);
+  52   2                      disWcom(0x01);
+  53   2                      disWcom(0x10);
+  54   2                      for(x=0;x<X_WIDTH;x++)
+  55   2                      disWdat(bmp_dat);
+C51 COMPILER V8.06   DISPLAY                                                               01/09/2019 15:14:42 PAGE 2   
+
+  56   2              }
+  57   1      }
+  58          void disCLS()
+  59          {
+  60   1              disFill(0);
+  61   1      }
+  62          void disInit()
+  63          {
+  64   1              delayMs(500);
+  65   1              disWcom(0xae);//--turn off oled panel
+  66   1              disWcom(0x00);//---set low column address
+  67   1              disWcom(0x10);//---set high column address
+  68   1              disWcom(0x40);//--set start line address  Set Mapping RAM Display Start Line (0x00~0x3F)
+  69   1              disWcom(0x81);//--set contrast control register
+  70   1              disWcom(Brightness); // Set SEG Output Current Brightness
+  71   1              disWcom(0xa1);//--Set SEG/Column Mapping     0xa0左右反置 0xa1正常
+  72   1              disWcom(0xc8);//Set COM/Row Scan Direction   0xc0上下反置 0xc8正常
+  73   1              disWcom(0xa6);//--set normal display
+  74   1              disWcom(0xa8);//--set multiplex ratio(1 to 64)
+  75   1              disWcom(0x3f);//--1/64 duty
+  76   1              disWcom(0xd3);//-set display offset     Shift Mapping RAM Counter (0x00~0x3F)
+  77   1              disWcom(0x00);//-not offset
+  78   1              disWcom(0xd5);//--set display clock divide ratio/oscillator frequency
+  79   1              disWcom(0x80);//--set divide ratio, Set Clock as 100 Frames/Sec
+  80   1              disWcom(0xd9);//--set pre-charge period
+  81   1              disWcom(0xf1);//Set Pre-Charge as 15 Clocks & Discharge as 1 Clock
+  82   1              disWcom(0xda);//--set com pins hardware configuration
+  83   1              disWcom(0x12);
+  84   1              disWcom(0xdb);//--set vcomh
+  85   1              disWcom(0x40);//Set VCOM Deselect Level
+  86   1              disWcom(0x20);//-Set Page Addressing Mode (0x00/0x01/0x02)
+  87   1              disWcom(0x02);//
+  88   1              disWcom(0x8d);//--set Charge Pump enable/disable
+  89   1              disWcom(0x14);//--set(0x10) disable
+  90   1              disWcom(0xa4);// Disable Entire Display On (0xa4/0xa5)
+  91   1              disWcom(0xa6);// Disable Inverse Display On (0xa6/a7) 
+  92   1              disWcom(0xaf);//--turn on oled panel
+  93   1              disFill(0x00); //初始清屏
+  94   1              disSetPos(0,0);
+  95   1      }
+  96          
+  97          
+  98          void dis6x8Strs(uchar x,uchar y,uchar ch[])
+  99          {
+ 100   1              uchar c=0,i=0,j=0;
+ 101   1              while(ch[j]!='\0')
+ 102   1              {
+ 103   2                      c=ch[j]-32;
+ 104   2                      if(x>126)
+ 105   2                      {
+ 106   3                              x=0;
+ 107   3                              y++;
+ 108   3                      }
+ 109   2                      disSetPos(x,y);
+ 110   2                      for(i=0;i<6;i++)
+ 111   2                      disWdat(F6x8[c][i]);
+ 112   2                      x+=6;
+ 113   2                      j++;
+ 114   2              }       
+ 115   1      }
+ 116          
+ 117          void main()
+C51 COMPILER V8.06   DISPLAY                                                               01/09/2019 15:14:42 PAGE 3   
+
+ 118          {
+ 119   1              disInit();
+ 120   1              disCLS();
+ 121   1              dis6x8Strs(0,0,"123");
+ 122   1              memInit();
+ 123   1              memRead(0,0);
+ 124   1              memWchar(0,0,1);
+ 125   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    136    ----
-   CONSTANT SIZE    =   ----    ----
+   CODE SIZE        =    441    ----
+   CONSTANT SIZE    =     70    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----       6
+   DATA SIZE        =   ----      14
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
-C51 COMPILER V8.06   DISPLAY                                                               01/08/2019 16:57:07 PAGE 2   
-
 END OF MODULE INFORMATION.
 
 

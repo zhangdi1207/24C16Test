@@ -1,0 +1,141 @@
+C51 COMPILER V8.06   MEM                                                                   01/09/2019 15:14:42 PAGE 1   
+
+
+C51 COMPILER V8.06, COMPILATION OF MODULE MEM
+OBJECT MODULE PLACED IN mem.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE mem.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <oled.h>
+   2          
+   3          void start(void)
+   4          {
+   5   1              sda=1;
+   6   1              D1;
+   7   1              sck=1;
+   8   1              D1;
+   9   1              sda=0;
+  10   1              D1;
+  11   1      }
+  12          
+  13          void stop(void)
+  14          {
+  15   1              sda=0;
+  16   1              D1;
+  17   1              sck=1;
+  18   1              D1;
+  19   1              sda=1;
+  20   1              D1;
+  21   1      
+  22   1      }
+  23          
+  24          void ack()
+  25          {
+  26   1              uchar i;
+  27   1              sck=1;
+  28   1              D1;;
+  29   1              while((sda==1)&&i<200)
+  30   1              {
+  31   2                      i++;
+  32   2              }
+  33   1              sck=0;
+  34   1              D1;
+  35   1      }
+  36          
+  37          void memInit()
+  38          {
+  39   1              sda=1;
+  40   1              D1;
+  41   1              sck=1;
+  42   1              D1;
+  43   1      
+  44   1      }
+  45          
+  46          
+  47          uchar read8()
+  48          {
+  49   1              uchar i=8,j=0;
+  50   1              for(i=0;i<8;i++)
+  51   1              {
+  52   2      
+  53   2                      sck=1;
+  54   2                      j<<=1;
+  55   2                      j|=sda;
+C51 COMPILER V8.06   MEM                                                                   01/09/2019 15:14:42 PAGE 2   
+
+  56   2                      sck=0;
+  57   2                      D1;
+  58   2              }
+  59   1              return j;
+  60   1      }
+  61          
+  62          void write8(uchar dat)
+  63          {
+  64   1              uchar i;
+  65   1              for(i=0;i<8;i++)
+  66   1              {
+  67   2                      sck=0;
+  68   2                      D1;
+  69   2                      sda=(bit)(dat&0x80);
+  70   2                      D1;
+  71   2                      sck=1;
+  72   2                      dat<<=1;
+  73   2              }
+  74   1              sck=0;
+  75   1              D1;
+  76   1      }
+  77          
+  78          void memWchar(uchar add,uchar dat,uchar page)     //page in(0-7)
+  79          {
+  80   1              uchar con=0xa0;
+  81   1              con+=(0x07&page)*2;
+  82   1              memCS=0;
+  83   1              start();
+  84   1              write8(con);
+  85   1              ack();
+  86   1              write8(add);
+  87   1              ack();
+  88   1              write8(dat);
+  89   1              ack();                                          
+  90   1              stop();
+  91   1              memDelay();
+  92   1              memCS=1;
+  93   1      
+  94   1      }
+  95          
+  96          uchar memRead(uchar add,uchar page)
+  97          {
+  98   1              uchar dat,con=0xa0;
+  99   1              con+=(0x07&page)*2;
+ 100   1              start();
+ 101   1              write8(con);
+ 102   1              ack();
+ 103   1              write8(add);
+ 104   1              ack();
+ 105   1              con+=(0x07&page)*2;
+ 106   1              con+=1;
+ 107   1              start();
+ 108   1              write8(con);
+ 109   1              ack();
+ 110   1              dat=read8();
+ 111   1              D1;
+ 112   1              stop();
+ 113   1              return dat;
+ 114   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+C51 COMPILER V8.06   MEM                                                                   01/09/2019 15:14:42 PAGE 3   
+
+   CODE SIZE        =    240    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
